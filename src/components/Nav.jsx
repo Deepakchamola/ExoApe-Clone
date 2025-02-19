@@ -91,13 +91,13 @@ function Nav() {
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ ease: Power4.easeInOut, duration: 0.8 }}
-            className="links sm:hidden h-[100vh] w-full absolute top-0 right-0 -z-10 flex flex-col justify-end gap-10 bg-black px-15 pb-30"
+            className="links sm:hidden h-[100vh] w-full absolute top-0 right-0 -z-10 flex flex-col justify-end gap-7 bg-black px-15 pb-30"
           >
             <div className="w-full flex flex-col gap-5">
               {["Work", "Studio", "News", "Contact"].map((items, i) => (
                 <a
                   key={i}
-                  className="inline-block text-7xl opacity-70 p-2 overflow-hidden"
+                  className="inline-block text-5xl opacity-70 overflow-hidden"
                 >
                   <motion.span
                     initial={{ y: 85, opacity: 0 }}
