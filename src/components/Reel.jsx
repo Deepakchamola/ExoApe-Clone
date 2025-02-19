@@ -18,8 +18,8 @@ function Reel() {
       },
     });
     tl.to(videodiv.current, {
-      width: "50%",
-      height: "30%",
+      width: "80%",
+      height: "80%",
       ease: Power4,
     });
     tl.to(
@@ -47,15 +47,16 @@ function Reel() {
       ref={parent}
       className="w-full h-screen relative overflow-hidden bg-black"
     >
-      <div className="overlay w-full h-full text-white flex flex-col items-center justify-between py-20 px-10 sm:py-10">
+      <div className="overlay w-full h-full text-white flex flex-col items-center justify-between py-10 px-10 sm:py-10">
         <div
           ref={videodiv}
-          className="video aspect-video overflow-hiddden w-60 sm:w-10 aspect-video absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"
+          className="video aspect-video overflow-hiddden w-60 sm:w-30 aspect-video absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"
         >
           <video
             autoPlay
             loop
             muted
+            scale={1.8}
             src="https://player.vimeo.com/progressive_redirect/playback/914798271/rendition/720p/file.mp4?loc=external&log_user=0&signature=2af493277d050009920c26416a8d62a9a8c316353242c609ee157fcf1e300076"
           />
         </div>

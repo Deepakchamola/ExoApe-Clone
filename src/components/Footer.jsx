@@ -4,7 +4,7 @@ import { Power4 } from "gsap";
 
 function Footer() {
   return (
-    <div className="w-full h-[65vh] sm:h-[110vh] px-10 sm:px-20 py-15 bg-[#070707] text-white relative">
+    <div className="w-full h-[70vh] sm:h-[110vh] px-10 sm:px-20 py-15 bg-[#070707] text-white relative">
       <div className="w-[58%] sm:w-[65%] aspect-video absolute top-10 sm:top-0 right-0 sm:right-20">
         <video
           autoPlay
@@ -33,18 +33,18 @@ function Footer() {
           </h1>
         ))}
         </div>
-        <p className="sm:w-[30%] text-[4.8vw] sm:text-xl mt-10 font-medium">
+        <p className="sm:w-[30%] text-[4.2vw] sm:text-xl mt-10 font-medium">
           The story behind Exo Ape is one of exploration, creativity and
           curiosity.
         </p>
         <a
-          className="inline-block text-sm sm:text-lg py-2 border-b-[2px] sm:border-b-[2px] mt-10 sm:mt-5"
+          className="inline-block text-sm sm:text-lg py-2 border-b-[2px] sm:border-b-[2px] mt-5 sm:mt-5"
           href="#"
         >
           Our Story
         </a>
-        <hr className="mt-10" />
-        <div className="w-full flex items-center justify-between gap-10 mt-10">
+        <hr className="mt-5" />
+        <div className="w-full flex items-center justify-between gap-10 mt-5">
           <div className="w-[30%] text-sm font-semibold flex flex-col justify-between gap-3 sm:gap-2">
             <a href="#">XYZ street UK</a>
             <a href="#">502***,Luke</a>
