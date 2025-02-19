@@ -17,10 +17,10 @@ A clone of the ExoApe website built for frontend practice. This project utilizes
 - Clean, modern UI inspired by ExoApe's official website.
 
 ## Preview
-<img src="" width="850" />
+<img src="https://github.com/Deepakchamola/ExoApe-Clone/blob/16f9ad649889134da3fd7dba8f9ba89ec6b76b2e/ExoApe.png" width="850" />
 
 ## Live Demo
-Watch live demo of the website: [View Live]()
+Watch live demo of the website: [View Live](https://exo-ape-clone-three.vercel.app/)
 
 ## Animations & Effects
 ### Framer Motion
